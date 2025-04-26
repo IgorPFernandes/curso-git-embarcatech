@@ -1,0 +1,10 @@
+cd OneDrive\Desktop\Meus Estudos\Embarcatech\Curso de Nivelamento + FPGA\Nivelamento
+git init
+git config user.name "Igor Pereira"
+git config user.email "igorperf1@gmail.com"
+echo "Igor Pereira Fernandes - 20251ZL00130036" > dados.txt
+git add dados.txt
+git commit -m "Primeiro commit: adicionando arquivo de dados"
+git remote add origin https://github.com/IgorPFernandes/curso-git-embarcatech.git
+git branch -M main
+git push -u origin main
